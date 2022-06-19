@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.container .receipt-paper{
+    width: 816px;
+    height: 100%;
+    margin: auto;
+}
+.container .receipt-paper table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.container .receipt-paper table tr td.description{
+    width: 75%;
+    padding: 15px;
+}
+.container .receipt-paper table tr td.amount{
+    width: 25%;
+    padding: 15px;
+}
+.container .receipt-paper table tr td.total{
+    width: 75%;
+    padding: 15px;
+    border-top: solid 1px black;
+}
+.container .receipt-paper table tr td.total-amount{
+    width: 25%;
+    padding: 15px;
+    border-top: solid 1px black;
+}
+.container .receipt-paper table tr td.cash{
+    width: 75%;
+    padding: 15px;
+}
+.container .receipt-paper table tr td.cash-amount{
+    width: 25%;
+    padding: 15px;
+}
+.container .receipt-paper table tr td.change{
+    width: 75%;
+    padding: 15px;
+}
+.container .receipt-paper table tr td.change-amount{
+    width: 25%;
+    padding: 15px;
+}
